@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.15)
+
+PROJECT(quickSortdemo)
+SET(CMAKE_CXX_STANDARD 11)
+
+INCLUDE_DIRECTORIES(.)
+
+ADD_EXECUTABLE(quickSortdemo main.cpp quicksort.cpp)
